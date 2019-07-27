@@ -222,4 +222,12 @@ Prelude> [x*2 | x <- [1..10], x*2 >= 12]
 [12,14,16,18,20]
 Prelude> [ x | x <- [50..100], x `mod` 7 == 3]
 [52,59,66,73,80,87,94]
+
+*Main> :l intensionalDefinition.hs
+[1 of 1] Compiling Main             ( intensionalDefinition.hs, interpreted )
+Ok, one module loaded.
+*Main> boomBangs [7..13]
+["BOOM!","BOOM!","BANG!","BANG!"]
+*Main> [ x | x <- [10..20], x /= 13, x /= 15, x /= 19]
+[10,11,12,14,16,17,18,20]
 ```
