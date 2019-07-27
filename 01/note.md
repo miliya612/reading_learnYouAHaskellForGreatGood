@@ -242,4 +242,14 @@ Ok, one module loaded.
 *Main> let adjectives = ["lazy","grouchy","scheming"]
 *Main> [adjective ++ " " ++ noun | adjective <- adjectives, noun <- nouns]
 ["lazy hobo","lazy frog","lazy pope","grouchy hobo","grouchy frog","grouchy pope","scheming hobo","scheming frog","scheming pope"]
+
+Prelude> :l intensionalDefinition.hs
+[1 of 1] Compiling Main             ( intensionalDefinition.hs, interpreted )
+Ok, one module loaded.
+*Main> length' [1,2,3,4,5]
+5
+*Main> removeNonUppercase "Hahaha! Ahahaha!"
+"HA"
+*Main> removeNonUppercase "IdontLIKEFROGS"
+"ILIKEFROGS"
 ```
