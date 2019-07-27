@@ -52,3 +52,11 @@ Ok, one module loaded.
 *Main> doubleUs 4 9
 26
 ```
+
+## 1.3
+
+```
+*Main> let lostNumbers = [4, 8, 15, 16, 23, 42]
+*Main> lostNumbers
+[4,8,15,16,23,42]
+```
