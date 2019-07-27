@@ -110,3 +110,18 @@ Prelude> [6,6,6]:b
 Prelude> b !! 2
 [1,2,2,3,4]
 ```
+
+### 1.3.4
+
+```
+Prelude> [3,2,1] > [2,1,0]
+True
+Prelude> [3,2,1] > [2,10,100]
+True
+Prelude> [3,4,2] < [3,4,3]
+True
+Prelude> [3,4,2] > [2,4]
+True
+Prelude> [3,4,2] == [3,4,2]
+True
+```
