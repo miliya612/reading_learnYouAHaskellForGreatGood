@@ -60,3 +60,14 @@ Ok, one module loaded.
 *Main> lostNumbers
 [4,8,15,16,23,42]
 ```
+
+### 1.3.1
+
+```
+*Main> [1,2,3,4] ++ [9,10,11,12]
+[1,2,3,4,9,10,11,12]
+*Main> "hello" ++ " " ++ "world"
+"hello world"
+*Main> ['w','o'] ++ ['o','t']
+"woot"
+```
