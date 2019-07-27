@@ -233,4 +233,13 @@ Ok, one module loaded.
 
 *Main> [x+y | x <- [1,2,3], y <- [10,100,1000]]
 [11,101,1001,12,102,1002,13,103,1003]
+
+*Main> [ x*y | x <- [2,5,10], y <- [8,10,11]]
+[16,20,22,40,50,55,80,100,110]
+*Main> [ x*y | x <- [2,5,10], y <- [8,10,11], x*y > 50]
+[55,80,100,110]
+*Main> let nouns = ["hobo","frog","pope"]
+*Main> let adjectives = ["lazy","grouchy","scheming"]
+*Main> [adjective ++ " " ++ noun | adjective <- adjectives, noun <- nouns]
+["lazy hobo","lazy frog","lazy pope","grouchy hobo","grouchy frog","grouchy pope","scheming hobo","scheming frog","scheming pope"]
 ```
