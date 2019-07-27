@@ -71,3 +71,11 @@ Ok, one module loaded.
 *Main> ['w','o'] ++ ['o','t']
 "woot"
 ```
+
+```
+*Main> 'A':" SMALL CAT"
+"A SMALL CAT"
+*Main> 5:[1,2,3,4,5]
+[5,1,2,3,4,5]
+```
+
