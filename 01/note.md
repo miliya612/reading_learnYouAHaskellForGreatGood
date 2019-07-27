@@ -24,3 +24,31 @@ Prelude> div 92 10
 Prelude> 92 `div` 10
 9
 ```
+
+## 1.2
+
+### 関数呼び出し
+
+```
+Prelude> :l baby
+[1 of 1] Compiling Main             ( baby.hs, interpreted )
+Ok, one module loaded.
+*Main> doubleMe 9
+18
+*Main> doubleMe 8.3
+16.6
+*Main> :l baby
+[1 of 1] Compiling Main             ( baby.hs, interpreted )
+Ok, one module loaded.
+*Main> doubleUs 4 9
+26
+*Main> doubleUs 2.4 34.2
+73.2
+*Main> doubleUs 28 88 + doubleMe 123
+478
+*Main> :l baby
+[1 of 1] Compiling Main             ( baby.hs, interpreted )
+Ok, one module loaded.
+*Main> doubleUs 4 9
+26
+```
