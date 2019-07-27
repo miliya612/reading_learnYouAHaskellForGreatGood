@@ -125,3 +125,54 @@ True
 Prelude> [3,4,2] == [3,4,2]
 True
 ```
+
+### 1.3.5
+
+```
+Prelude> head [5,4,3,2,1]
+5
+Prelude> tail [5,4,3,2,1]
+[4,3,2,1]
+Prelude> last [5,4,3,2,1]
+1
+Prelude> init [5,4,3,2,1]
+[5,4,3,2]
+Prelude> head []
+*** Exception: Prelude.head: empty list
+Prelude> length [5,4,3,2,1]
+5
+Prelude> null [1,2,3]
+False
+Prelude> null []
+True
+Prelude> reverse [5,4,3,2,1]
+[1,2,3,4,5]
+Prelude> take 3 [5,4,3,2,1]
+[5,4,3]
+Prelude> take 1 [3,9,3]
+[3]
+Prelude> take 5 [1,2]
+[1,2]
+Prelude> take 0 [6,6,6]
+[]
+Prelude> drop 3 [8,4,2,1,5,6]
+[1,5,6]
+Prelude> drop 0 [1,2,3,4]
+[1,2,3,4]
+Prelude> drop 100 [1,2,3,4]
+[]
+Prelude> maximum [1,9,2,3,4]
+9
+Prelude> minimum [8,4,2,1,5,6]
+1
+Prelude> sum [5,2,1,6,3,2,5,7]
+31
+Prelude> product [6,2,1,2]
+24
+Prelude> product [1,2,5,6,7,9,2,0]
+0
+Prelude> 4 `elem` [3,4,5,6]
+True
+Prelude> 10 `elem` [3,4,5,6]
+False
+```
