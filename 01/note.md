@@ -186,4 +186,11 @@ Prelude> ['a'..'z']
 "abcdefghijklmnopqrstuvwxyz"
 Prelude> ['K'..'Z']
 "KLMNOPQRSTUVWXYZ"
+
+Prelude> [2,4..20]
+[2,4,6,8,10,12,14,16,18,20]
+Prelude> [3,6..20]
+[3,6,9,12,15,18]
+Prelude> [20,19..1]
+[20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]
 ```
