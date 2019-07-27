@@ -86,3 +86,13 @@ Ok, one module loaded.
 [1,2,3,4,5]
 ```
 
+### 1.3.2
+
+```
+Prelude> "Steve Buscemi" !! 6
+'B'
+Prelude> [9.4,33.2,96.2,11.2,23.25] !! 1
+33.2
+Prelude> [9.4,33.2,96.2,11.2,23.25] !! 6
+*** Exception: Prelude.!!: index too large
+```
