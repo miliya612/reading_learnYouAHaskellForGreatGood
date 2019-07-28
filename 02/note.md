@@ -175,3 +175,14 @@ minBound :: Bounded a => a
 (*) :: Num a => a -> a -> a
 ```
 
+### 2.4.8
+
+```
+*Main> :t sin
+sin :: Floating a => a -> a
+*Main> :t cos
+cos :: Floating a => a -> a
+*Main> :t sqrt
+sqrt :: Floating a => a -> a
+```
+
