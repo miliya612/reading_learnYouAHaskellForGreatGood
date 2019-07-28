@@ -124,4 +124,16 @@ read :: Read a => String -> a
 [True,False,True,False]
 ```
 
+### 2.4.5
+
+```
+*Main> ['a'..'e']
+"abcde"
+*Main> [LT .. GT]
+[LT,EQ,GT]
+*Main> [3 .. 5]
+[3,4,5]
+*Main> succ 'B'
+'C'
+```
 
