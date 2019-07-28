@@ -283,3 +283,17 @@ Prelude> [(1,2),(8,11,5),(4,5)]
     • Relevant bindings include
         it :: [(a, b)] (bound at <interactive>:4:1)
 ```
+
+### 1.6.2
+
+```
+Prelude> fst (8, 11)
+8
+Prelude> fst ("Wow", False)
+"Wow"
+
+Prelude> snd (8, 11)
+11
+Prelude> snd ("Wow", False)
+False
+```
