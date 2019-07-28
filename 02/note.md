@@ -75,6 +75,19 @@ True
 True
 *Main> 3.432 == 3.432
 True
+
+*Main> :t (>)
+(>) :: Ord a => a -> a -> Bool
+*Main> "Abrakadabra" < "Zebra"
+True
+*Main> "Abrakadabra" `compare` "Zebra"
+LT
+*Main> 5 >= 2
+True
+*Main> 5 `compare` 3
+GT
+*Main> 'b' > 'a'
+True
 ```
 
 
