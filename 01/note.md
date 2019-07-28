@@ -269,3 +269,17 @@ Prelude> (50, 50.4, "hello", 'b')
 (50,50.4,"hello",'b')
 ```
 
+### 1.6.1
+
+```
+Prelude> [(1,2),(8,11,5),(4,5)]
+
+<interactive>:4:8: error:
+    • Couldn't match expected type ‘(a, b)’
+                  with actual type ‘(Integer, Integer, Integer)’
+    • In the expression: (8, 11, 5)
+      In the expression: [(1, 2), (8, 11, 5), (4, 5)]
+      In an equation for ‘it’: it = [(1, 2), (8, 11, 5), (4, 5)]
+    • Relevant bindings include
+        it :: [(a, b)] (bound at <interactive>:4:1)
+```
