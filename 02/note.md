@@ -108,6 +108,20 @@ True
 *** Exception: Prelude.read: no parse
 *Main> :t read
 read :: Read a => String -> a
+
+*Main> read "5" :: Int
+5
+*Main> read "5" :: Float
+5.0
+*Main> (read "5" :: Float) * 4
+20.0
+*Main> read "[1,2,3,4]" :: [Int]
+[1,2,3,4]
+*Main> read "(3, 'a')" :: (Int, Char)
+(3,'a')
+
+*Main> [read "True", False, True, False]
+[True,False,True,False]
 ```
 
 
