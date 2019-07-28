@@ -306,3 +306,13 @@ Prelude> zip [5,3,2,6,2,7,2,5,4,6,6] ["im", "a", "turtle"]
 Prelude> zip [1..] ["apple", "orange", "cherry", "mango"]
 [(1,"apple"),(2,"orange"),(3,"cherry"),(4,"mango")]
 ```
+
+### 1.6.3
+
+```
+Prelude> let triples = [ (a,b,c) | c <- [1..10], a <- [1..10], b <- [1..10] ]
+Prelude> let rightTriangles = [ (a,b,c) | c <- [1..10], a <- [1..c], b <- [1..a], a^2 + b^2 == c^2]
+Prelude> let rightTriangles' = [ (a,b,c) | c <- [1..10], a <- [1..c], b <- [1..a], a^2 + b^2 == c^2, a+b+c == 24]
+Prelude> rightTriangles'
+[(8,6,10)]
+```
