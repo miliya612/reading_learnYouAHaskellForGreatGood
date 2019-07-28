@@ -88,6 +88,13 @@ True
 GT
 *Main> 'b' > 'a'
 True
+
+*Main> show 3
+"3"
+*Main> show 5.334
+"5.334"
+*Main> show True
+"True"
 ```
 
 
