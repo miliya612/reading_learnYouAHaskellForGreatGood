@@ -257,3 +257,15 @@ Ok, one module loaded.
 *Main> [ [ x | x <- xs, even x ] | xs <- xxs]
 [[2,2,4],[2,4,6,8],[2,4,2,6,2,6]]
 ```
+
+## 1.6
+
+```
+Prelude> (1, 3)
+(1,3)
+Prelude> (3, 'a', "hello")
+(3,'a',"hello")
+Prelude> (50, 50.4, "hello", 'b')
+(50,50.4,"hello",'b')
+```
+
