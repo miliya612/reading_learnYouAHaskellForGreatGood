@@ -186,3 +186,21 @@ cos :: Floating a => a -> a
 sqrt :: Floating a => a -> a
 ```
 
+### 2.4.9
+
+```
+Prelude> :t fromIntegral
+fromIntegral :: (Integral a, Num b) => a -> b
+Prelude> :t length
+length :: Foldable t => t a -> Int
+Prelude> length [1,2,3,4] + 3.2
+
+<interactive>:3:20: error:
+    • No instance for (Fractional Int) arising from the literal ‘3.2’
+    • In the second argument of ‘(+)’, namely ‘3.2’
+      In the expression: length [1, 2, 3, 4] + 3.2
+      In an equation for ‘it’: it = length [1, 2, 3, ....] + 3.2
+Prelude> fromIntegral (length [1,2,3,4]) + 3.2
+7.2
+```
+
