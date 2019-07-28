@@ -95,6 +95,19 @@ True
 "5.334"
 *Main> show True
 "True"
+
+*Main> read "True" || False
+True
+*Main> read "8.2" + 3.8
+12.0
+*Main> read "5" - 2
+3
+*Main> read "[1,2,3,4]" ++ [3]
+[1,2,3,4,3]
+*Main> read "4"
+*** Exception: Prelude.read: no parse
+*Main> :t read
+read :: Read a => String -> a
 ```
 
 
