@@ -157,3 +157,21 @@ minBound :: Bounded a => a
 (True,9223372036854775807,'\1114111')
 ```
 
+### 2.4.7
+
+```
+*Main> :t 20
+20 :: Num p => p
+*Main> 20 :: Int
+20
+*Main> 20 :: Integer
+20
+*Main> 20 :: Float
+20.0
+*Main> 20 :: Double
+20.0
+
+*Main> :t (*)
+(*) :: Num a => a -> a -> a
+```
+
