@@ -62,4 +62,19 @@ fst :: (a, b) -> a
 (==) :: Eq a => a -> a -> Bool
 ```
 
+## 2.4.1
+
+```
+*Main> 5 == 5
+True
+*Main> 5 /= 5
+False
+*Main> 'a' == 'a'
+True
+*Main> "Ho Ho" == "Ho Ho"
+True
+*Main> 3.432 == 3.432
+True
+```
+
 
