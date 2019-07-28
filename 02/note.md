@@ -45,3 +45,13 @@ True :: Bool
 *Main> :t ('a', 'b')
 ('a', 'b') :: (Char, Char)
 ```
+
+## 2.3
+
+```
+*Main> :t head
+head :: [a] -> a
+*Main> :t fst
+fst :: (a, b) -> a
+```
+
