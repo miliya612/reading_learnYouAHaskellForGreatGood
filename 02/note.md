@@ -137,3 +137,23 @@ read :: Read a => String -> a
 'C'
 ```
 
+### 2.4.6
+
+```
+*Main> minBound :: Int
+-9223372036854775808
+*Main> maxBound :: Char
+'\1114111'
+*Main> maxBound :: Bool
+True
+*Main> minBound :: Bool
+False
+
+*Main> :t maxBound
+maxBound :: Bounded a => a
+*Main> :t minBound
+minBound :: Bounded a => a
+*Main> maxBound :: (Bool, Int, Char)
+(True,9223372036854775807,'\1114111')
+```
+
